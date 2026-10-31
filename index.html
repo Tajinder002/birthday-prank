@@ -10,20 +10,22 @@
   <div id="confetti"></div>
 
   <section id="birthday-screen">
+    <div id="level-badge">LVL 1</div>
     <h1 class="glow">Happy Birthday! 🎂</h1>
     <p class="subtitle">We got you something special...</p>
     <button id="start-btn">Open Your Gift 🎁</button>
   </section>
 
   <section id="countdown-screen" class="hidden">
-    <h2>Your surprise is loading...</h2>
+    <h2 id="level-name">Your surprise is loading...</h2>
+    <div class="progress-bar"><div id="level-progress"></div></div>
     <div id="timer">01:00</div>
     <p class="hint">Don't peek! 🤫</p>
   </section>
 
   <section id="prank-screen" class="hidden">
-    <p class="big-text">FUCK YOU 💀</p>
-    <p class="small-text">Just kidding... maybe. 😈</p>
+    <p id="reveal-text" class="big-text">FUCK YOU 💀</p>
+    <p id="reveal-signoff" class="small-text">Just kidding... maybe. 😈</p>
   </section>
 
   <script src="script.js"></script>
